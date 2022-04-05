@@ -1,5 +1,5 @@
 function init(){
-  document.getElementById('entrybutton').addEventListener('click', clickFunction)
+  document.getElementById('entrybutton').addEventListener('click', clickFunction);
 
   function clickFunction(){
     var message = document.getElementById('entryinput').value;
